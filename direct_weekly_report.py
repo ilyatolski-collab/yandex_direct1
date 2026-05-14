@@ -4,6 +4,7 @@
 Cron: 0 5 * * 1
 """
 
+import os
 import requests
 import time
 from datetime import datetime, timedelta
