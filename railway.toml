@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+cronSchedule = "0 5 * * 1"
+startCommand = "python direct_weekly_report.py"
